@@ -1,6 +1,7 @@
 package net.slushie.epicmod;
 
 import net.fabricmc.api.ModInitializer;
+import net.slushie.epicmod.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -10,5 +11,6 @@ public class EpicMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItems.registerModItems();
 	}
 }
