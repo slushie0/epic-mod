@@ -15,12 +15,12 @@ public class ModItems {
     public static final Item RAW_TANZANITE = registerItem(
             "raw_tanzanite",
             new Item(new Item.Settings()),
-            ModItemGroup.TANZANITE
+            ModItemGroup.EPIC_MOD
             );
     public static final Item TANZANITE = registerItem(
             "tanzanite",
             new Item(new Item.Settings()),
-            ModItemGroup.TANZANITE
+            ModItemGroup.EPIC_MOD
             );
 
     private static Item registerItem(String name, Item item, ItemGroup group) {
